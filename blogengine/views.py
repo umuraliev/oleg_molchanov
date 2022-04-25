@@ -1,6 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
 
 
-def posts_list(request):
+def hello(request):
     return HttpResponse('<h1>Hello World!</h1>')
